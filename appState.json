@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "d1156c4e-1d2a-497a-af2a-700c6667b232": {
+        "id": "d1156c4e-1d2a-497a-af2a-700c6667b232",
+        "parent": null,
+        "name": "MyFirstProject.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MyFirstProject.py",
+        "cursor": {
+          "lineNumber": 4,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "MyFirstProject"
+        },
+        "triggers": [],
+        "testCases": {
+          "a4387515-5233-4eec-9d95-5ab084e92ef3": {
+            "id": "a4387515-5233-4eec-9d95-5ab084e92ef3",
+            "functionId": "d1156c4e-1d2a-497a-af2a-700c6667b232",
+            "name": "My First Test Case",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "d1156c4e-1d2a-497a-af2a-700c6667b232"
+    ],
+    "currentFileId": "d1156c4e-1d2a-497a-af2a-700c6667b232",
+    "resources": {},
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "MyFirstProject",
+    "projectDescription": "My First Project",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1589420590119
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "myfirstproject",
+      "url": "https://github.com/Mr-Coxall/myfirstproject"
+    }
+  }
+}
